@@ -17,6 +17,6 @@ public class HomePageTest extends BaseClass
 		Thread.sleep(2000);
 		
 		logger.info("Check that dropdown is displayed");
-		Assert.assertEquals(isDisplayed, true);
+		Assert.assertEquals(isDisplayed, false);
 	}
 }
