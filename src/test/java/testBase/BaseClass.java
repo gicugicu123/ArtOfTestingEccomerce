@@ -1,5 +1,10 @@
 package testBase;
 
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.Properties;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.core.Logger;
 import org.openqa.selenium.WebDriver;
@@ -14,11 +19,20 @@ public class BaseClass
 {
 	public WebDriver driver;
 	public Logger logger; //Log4j
+	public Properties prop;
 	
 	@BeforeClass
 	@Parameters({"browser", "os"})
-	public void setup(String browser, String os)
+	public void setup(String browser, String os) throws IOException
 	{
+		//loading config.properties file
+		FileReader file = new FileReader("./src//test//resources//config.properties");
+		
+		prop = new Properties();
+		prop.load(file);
+		
+		String appURL = prop.getProperty("appURL");
+		
 		logger = (Logger) LogManager.getLogger(this.getClass());
 		
 		switch (browser)
@@ -31,7 +45,7 @@ public class BaseClass
 		}
 		
 		
-		driver.get("https://ecommerce.artoftesting.com/");
+		driver.get(appURL);
 		
 		driver.manage().window().maximize();
 	}

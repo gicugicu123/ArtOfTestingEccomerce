@@ -1,41 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-09T10:25:08 EEST" name="Master Suite" finished-at="2024-10-09T10:25:27 EEST" duration-ms="19235">
+  <suite started-at="2024-10-09T10:57:01 EEST" name="Master Suite" finished-at="2024-10-09T10:57:15 EEST" duration-ms="13772">
     <groups>
     </groups>
-    <test started-at="2024-10-09T10:25:08 EEST" name="firefoxTesting" finished-at="2024-10-09T10:25:23 EEST" duration-ms="15400">
+    <test started-at="2024-10-09T10:57:01 EEST" name="Test" finished-at="2024-10-09T10:57:15 EEST" duration-ms="13772">
       <class name="testCases.HomePageTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.HomePageTest@ee86bcb]" started-at="2024-10-09T10:25:08 EEST" name="setup" finished-at="2024-10-09T10:25:19 EEST" duration-ms="11558" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[windows]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="isSelectDisplayed()[pri:0, instance:testCases.HomePageTest@ee86bcb]" started-at="2024-10-09T10:25:19 EEST" name="isSelectDisplayed" finished-at="2024-10-09T10:25:21 EEST" duration-ms="2077" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isSelectDisplayed -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.HomePageTest@ee86bcb]" started-at="2024-10-09T10:25:21 EEST" name="tearDown" finished-at="2024-10-09T10:25:23 EEST" duration-ms="1726" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.HomePageTest -->
-    </test> <!-- firefoxTesting -->
-    <test started-at="2024-10-09T10:25:08 EEST" name="chromeTesting" finished-at="2024-10-09T10:25:24 EEST" duration-ms="16187">
-      <class name="testCases.HomePageTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.HomePageTest@528c868]" started-at="2024-10-09T10:25:08 EEST" name="setup" finished-at="2024-10-09T10:25:22 EEST" duration-ms="13879" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.HomePageTest@528c868]" started-at="2024-10-09T10:57:01 EEST" name="setup" finished-at="2024-10-09T10:57:12 EEST" duration-ms="11347" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -51,43 +23,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="isSelectDisplayed()[pri:0, instance:testCases.HomePageTest@528c868]" started-at="2024-10-09T10:25:22 EEST" name="isSelectDisplayed" finished-at="2024-10-09T10:25:24 EEST" duration-ms="2067" status="PASS">
+        <test-method signature="isSelectDisplayed()[pri:0, instance:testCases.HomePageTest@528c868]" started-at="2024-10-09T10:57:12 EEST" name="isSelectDisplayed" finished-at="2024-10-09T10:57:14 EEST" duration-ms="2068" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isSelectDisplayed -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.HomePageTest@528c868]" started-at="2024-10-09T10:25:24 EEST" name="tearDown" finished-at="2024-10-09T10:25:24 EEST" duration-ms="215" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.HomePageTest@528c868]" started-at="2024-10-09T10:57:14 EEST" name="tearDown" finished-at="2024-10-09T10:57:15 EEST" duration-ms="327" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.HomePageTest -->
-    </test> <!-- chromeTesting -->
-    <test started-at="2024-10-09T10:25:08 EEST" name="edgeTesting" finished-at="2024-10-09T10:25:27 EEST" duration-ms="19235">
-      <class name="testCases.HomePageTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.HomePageTest@10cf09e8]" started-at="2024-10-09T10:25:08 EEST" name="setup" finished-at="2024-10-09T10:25:24 EEST" duration-ms="15873" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[windows]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="isSelectDisplayed()[pri:0, instance:testCases.HomePageTest@10cf09e8]" started-at="2024-10-09T10:25:24 EEST" name="isSelectDisplayed" finished-at="2024-10-09T10:25:26 EEST" duration-ms="2046" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isSelectDisplayed -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.HomePageTest@10cf09e8]" started-at="2024-10-09T10:25:26 EEST" name="tearDown" finished-at="2024-10-09T10:25:27 EEST" duration-ms="1291" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.HomePageTest -->
-    </test> <!-- edgeTesting -->
+    </test> <!-- Test -->
   </suite> <!-- Master Suite -->
 </testng-results>

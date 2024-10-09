@@ -119,3 +119,7 @@
 10:25:21.963 [TestNG-tests-3] INFO  testCases.HomePageTest - Check that dropdown is displayed
 10:25:24.270 [TestNG-tests-1] INFO  testCases.HomePageTest - Check that dropdown is displayed
 10:25:26.243 [TestNG-tests-2] INFO  testCases.HomePageTest - Check that dropdown is displayed
+10:57:01.527 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Udemy\Selenium\ArtOfTesting\master.xml
+
+10:57:14.973 [main] INFO  testCases.HomePageTest - Check that dropdown is displayed
