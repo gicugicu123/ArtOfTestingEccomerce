@@ -80,3 +80,42 @@
 10:13:52.416 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@78411116: 4 ms
 10:13:52.419 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@2d195ee4: 3 ms
 10:13:52.419 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@2d6aca33: 0 ms
+10:17:03.827 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Udemy\Selenium\ArtOfTesting\master.xml
+
+10:17:13.701 [main] INFO  testCases.HomePageTest - Check that dropdown is displayed
+10:19:54.119 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Udemy\Selenium\ArtOfTesting\master.xml
+
+10:20:14.515 [main] ERROR testCases.HomePageTest - Invalid browser
+10:20:23.177 [main] INFO  testCases.HomePageTest - Check that dropdown is displayed
+10:20:48.191 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Udemy\Selenium\ArtOfTesting\master.xml
+
+10:20:57.937 [main] INFO  testCases.HomePageTest - Check that dropdown is displayed
+10:21:13.968 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Udemy\Selenium\ArtOfTesting\master.xml
+
+10:21:25.310 [main] INFO  testCases.HomePageTest - Check that dropdown is displayed
+10:23:26.832 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Udemy\Selenium\ArtOfTesting\master.xml
+
+10:23:39.405 [main] INFO  testCases.HomePageTest - Check that dropdown is displayed
+10:23:46.246 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Udemy\Selenium\ArtOfTesting\crossBrowser.xml
+
+10:23:57.700 [main] INFO  testCases.HomePageTest - Check that dropdown is displayed
+10:24:04.752 [main] INFO  testCases.HomePageTest - Check that dropdown is displayed
+10:24:17.110 [main] INFO  testCases.HomePageTest - Check that dropdown is displayed
+10:24:37.976 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Udemy\Selenium\ArtOfTesting\crossBrowser.xml
+
+10:24:50.642 [TestNG-tests-1] INFO  testCases.HomePageTest - Check that dropdown is displayed
+10:24:52.697 [TestNG-tests-2] INFO  testCases.HomePageTest - Check that dropdown is displayed
+10:24:55.041 [TestNG-tests-3] INFO  testCases.HomePageTest - Check that dropdown is displayed
+10:25:08.288 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Udemy\Selenium\ArtOfTesting\crossBrowserTesting.xml
+
+10:25:21.963 [TestNG-tests-3] INFO  testCases.HomePageTest - Check that dropdown is displayed
+10:25:24.270 [TestNG-tests-1] INFO  testCases.HomePageTest - Check that dropdown is displayed
+10:25:26.243 [TestNG-tests-2] INFO  testCases.HomePageTest - Check that dropdown is displayed
