@@ -14,6 +14,7 @@ public class HomePageTest extends BaseClass
 		HomePage homePage = new HomePage(driver);
 		boolean isDisplayed = homePage.isDropdownDisplayed();
 		
+		logger.info("Check that dropdown is displayed");
 		Assert.assertEquals(isDisplayed, true);
 	}
 }
